@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ebrahim</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script
+            src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+        <script
+            src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet">
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"
+            rel="stylesheet" />
+        <script>
+        // Extend Tailwind to include the Sora font
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sora: ['Sora', 'sans-serif'], // Custom font
+                    },
+                },
+            },
+        };
+    </script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/flaticon/2.1.2/css/all.min.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+            rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-white">
+        <!-- nav  -->
+        <div
+            class="flex justify-between items-center w-10/12 mx-auto pt-10 pb-5">
+            <div class=" flex items-center gap-3">
+                <img class="w-[40px]" src="img/logo.png" alt>
+                <p class="font-bold text-3xl text-purple-600">EIS</p>
+            </div>
+            <div class="flex items-center gap-6">
+
+                <ul
+                    class="font-semibold gap-5 hidden md:block md:flex text-base text-[#2A1454]">
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Home
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Services
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Resume
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Skill
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Testiomonials
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Contact
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                </ul>
+                <button
+                    class="px-4 py-2 rounded-full text-white font-semibold bg-gradient-to-r from-purple-500 to-purple-900">Hire
+                    me!</button>
+                <div class="dropdown dropdown-end md:hidden">
+                    <div tabindex="0" role="button"
+                        class="btn m-1 bg-transparent border-none hover:bg-transparent">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24"
+                            class="inline-block h-5 w-5 opacity-100 stroke-current">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </div>
+                    <ul tabindex
+                        class="dropdown-content menu bg-purple-500 text-white text-xl rounded-box z-[1] w-36 p-2 shadow">
+                        <li class>Home</li>
+                        <li class>Services</li>
+                        <li class>Works</li>
+                        <li class>Resune</li>
+                        <li class>Skills</li>
+                        <li class>Testiomonials</li>
+                        <li class>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- hero  -->
+        <div
+            class=" w-9/12 mx-auto flex justify-center md:justify-between items-center ">
+            <p
+                class="text-[400px] absolute -z-20 text-gray-300 opacity-20 left-[700px]">HI</p>
+            <div class="flex flex-col gap-3 md:w-[50%]">
+                <h4
+                    class="text-purple-900 text-[30px] md:text-4xl  font-bold leading-[54px]">I
+                    am Gerold</h4>
+                <h2
+                    class="bg-gradient-to-r from-purple-500 to-indigo-900 bg-clip-text text-transparent text-[40px] md:text-[65px]  font-bold leading-[78px]">Web
+                    Developer + UX Designer</h2>
+                <img
+                    class="w-[400px] mx-auto mt-10 rounded-3xl origin-top-left rotate-6 transition duration-0 hover:duration-1000 hover:rotate-0 md:hidden"
+                    src="img/hero.jpg" alt>
+                <p
+                    class="text-xl text-[#140C1C] font-normal mt-12 md:mt-0 md:w-12/12">I
+                    break down complex user experience problems to
+                    create integrity focussed solutions that connect billions of
+                    people</p>
+                <div class="flex items-center py-2 gap-5">
+                    <button
+                        type="button"
+                        data-twe-ripple-init
+                        data-twe-ripple-color="light"
+                        class="flex items-center rounded-full bg-transparent border-2 border-blue-500 px-6 py-3 pt-2.5 text-xs font-semibold leading-normal text-blue-500 hover:bg-blue-500 hover:text-white">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            class="me-1 h-4 w-4">
+                            <path
+                                fill-rule="evenodd"
+                                d="M19.5 21a3 3 0 003-3V9a3 3 0 00-3-3h-5.379a.75.75 0 01-.53-.22L11.47 3.66A2.25 2.25 0 009.879 3H4.5a3 3 0 00-3 3v12a3 3 0 003 3h15zm-6.75-10.5a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V10.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <p class="font-semibold">Download CV</p>
+                    </button>
+                    <button id="facebook"
+                        class="bg-white  sticky duration-500 border-2 border-blue-600 fixed  w-12 transform hover:-translate-y-3   h-12 text-2xl rounded-full hover:bg-blue-600 hover:text-white text-blue-600 ">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <button id="instagram"
+                        class=" border-2 hover:border-0 border-pink-500 bg-gradient-to-b text-2xl hover:from-indigo-600 hover:via-pink-600 hover:to-yellow-500 min-w-wull hover:text-white bg-white text-pink-600 w-12 h-12  transform hover:-translate-y-3 rounded-full duration-500 ">
+                        <i class="fab fa-instagram"></i>
+                    </button>
+                    <button id="linkedin"
+                        class="bg-white transform hover:-translate-y-3  border-2 w-12 h-12 rounded-full duration-500 text-blue-500 border-blue-500  hover:bg-blue-500 hover:text-white text-2xl">
+                        <i class="fab fa-linkedin-in"></i>
+                    </button>
+                    <button id="skype"
+                        class="bg-white  transform hover:-translate-y-3  border-2 w-12 h-12 rounded-full duration-500 text-blue-400 border-blue-400 hover:bg-blue-400 hover:text-white text-2xl">
+                        <i class="fab fa-skype"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="flex items-center md:w-[473px] ">
+                <img
+                    class="w-[473px] mx-auto mt-10 rounded-3xl origin-top-center rotate-6 transition duration-0 hover:duration-1000 hover:rotate-0"
+                    src="img/hero.jpg" alt>
+            </div>
+        </div>
+        <div
+            class="grid grid-cols-2 md:grid-cols-4 w-9/12 mx-auto justify-between mt-16">
+            <div class="flex text-purple-500 gap-2">
+                <p
+                    class="md:text-[64px] text-4xl font-bold  text-[#8750F7]">14</p>
+                <p class="md:text-[16px] text-md leading-6 text-[#B423F7]">Years
+                    of <br>Experience</p>
+            </div>
+            <div class="flex text-purple-500 gap-2">
+                <p
+                    class="md:text-[64px] text-4xl font-bold text-[#8750F7]">50+</p>
+                <p
+                    class="md:text-[16px] text-md leading-6 text-[#B423F7]">Project
+                    <br>Completed</p>
+            </div>
+            <div class="flex text-purple-500 gap-2">
+                <p
+                    class="md:text-[64px] text-4xl font-bold text-[#8750F7]">1.5K</p>
+                <p class="md:text-[16px] text-md leading-6 text-[#B423F7]">Happy
+                    <br>Customer</p>
+            </div>
+            <div class="flex text-purple-500 gap-2">
+                <p
+                    class="md:text-[64px] text-4xl font-bold text-[#8750F7]">14</p>
+                <p class="md:text-[16px] text-md leading-6 text-[#B423F7]">Years
+                    of <br>Experience</p>
+            </div>
+        </div>
+
+        <!-- Services -->
+        <div class="w-9/12 mx-auto">
+            <div class="flex items-center w-full justify-center flex-col pt-20">
+                <h3
+                    class="text-[45px] font-bold bg-gradient-to-r from-purple-500 to-indigo-900 bg-clip-text text-transparent">Services</h3>
+                <p class="text-[16px]">OFFERED SERVICES</p>
+            </div>
+            <div class="grid md:grid-cols-2 grid-cols-1 pt-8 gap-8">
+                <div
+                    class="w-12/12 mx-auto text-[#8750F7] hover:bg-[#8750F7] hover:text-white flex flex-col gap-4 px-7 py-4 border-2 border-gray-200 rounded-xl">
+                    <i class="fa-solid fa-laptop"></i>
+                    <div class>
+                        <h3 class=" text-xl font-bold">Web Development</h3>
+                        <p class="text-black hover:text-white">Conducting
+                            qualitative and quantitative research to
+                            understand user needs, behaviors, and pain points.
+                            Utilizing methods such as surveys,
+                            interviews, and usability testing...</p>
+                    </div>
+                </div>
+                <div
+                    class="w-12/12 mx-auto text-purple-500 hover:bg-purple-500 hover:text-white flex flex-col gap-4 px-7 py-4 border-2 border-gray-200 rounded-xl">
+                    <i class="fa-solid fa-laptop"></i>
+                    <div class>
+                        <h3 class=" text-xl font-bold">UI/UX Design</h3>
+                        <p class="text-black hover:text-white">Conducting
+                            qualitative and quantitative research to
+                            understand user needs, behaviors, and pain points.
+                            Utilizing methods such as surveys,
+                            interviews, and usability testing...</p>
+                    </div>
+                </div>
+                <div
+                    class="w-12/12 mx-auto text-purple-500 hover:bg-purple-500 hover:text-white flex flex-col gap-4 px-7 py-4 border-2 border-gray-200 rounded-xl">
+                    <i class="fa-solid fa-laptop"></i>
+                    <div class>
+                        <h3 class=" text-xl font-bold">Content Writing</h3>
+                        <p class="text-black hover:text-white">Conducting
+                            qualitative and quantitative research to
+                            understand user needs, behaviors, and pain points.
+                            Utilizing methods such as surveys,
+                            interviews, and usability testing...</p>
+                    </div>
+                </div>
+                <div
+                    class="w-12/12 mx-auto text-purple-500 hover:bg-purple-500 hover:text-white flex flex-col gap-4 px-7 py-4 border-2 border-gray-200 rounded-xl">
+                    <i class="fa-solid fa-laptop"></i>
+                    <div class>
+                        <h3 class=" text-xl font-bold">Digital Marketing</h3>
+                        <p class="text-black hover:text-white">Conducting
+                            qualitative and quantitative research to
+                            understand user needs, behaviors, and pain points.
+                            Utilizing methods such as surveys,
+                            interviews, and usability testing...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- project  -->
+        <div class="flex flex-col items-center pt-16">
+            <div class="flex flex-col items-center gap-4">
+                <h3
+                    class="text-[45px] font-bold bg-gradient-to-r from-purple-500 to-indigo-900 bg-clip-text text-transparent">Project</h3>
+                <div
+                    class="flex gap-4 items-center bg-gray-100 py-2 px-8 rounded-full ">
+                    <p
+                        class="px-6 py-1 bg-purple-500 text-white font-semibold rounded-full">Apps</p>
+                    <p
+                        class="px-6 py-1 text-purple-500 hover:bg-purple-500 hover:text-white hover:font-semibold rounded-full">
+                        Branding</p>
+                    <p
+                        class="px-6 py-1 text-purple-500 hover:bg-purple-500 hover:text-white hover:font-semibold rounded-full">
+                        Content</p>
+                    <p
+                        class="px-6 py-1 text-purple-500 hover:bg-purple-500 hover:text-white hover:font-semibold rounded-full">
+                        UX/UI</p>
+                </div>
+            </div>
+            <div
+                class="grid md:grid-cols-3 grid-cols-1 justify-between items-center w-9/12 gap-4 mx-auto pt-4">
+                <div
+                    class="flex flex-col mx-auto border-2 border-gray-500 p-2 rounded-lg">
+                    <img class="w-[300px] rounded-t-lg" src="img/project1.png"
+                        alt>
+                    <div class="w-[280px] p-4 flex flex-col">
+                        <p
+                            class="text-xl text-gray-400 font-semibold">Branding</p>
+                        <h4
+                            class="text-3xl text-purple-500 font-bold">Deloitte</h4>
+                        <div class="flex justify-between mt-3">
+                            <button
+                                class="relative flex items-center px-6 py-3 text-gray-700 font-semibold rounded-full bg-white shadow-[4px_4px_6px_rgba(255,255,255,0.3),-4px_-4px_6px_rgba(116,125,136,0.2),inset_-4px_-4px_6px_rgba(255,255,255,0.2),inset_4px_4px_6px_rgba(0,0,0,0.2)] ">
+                                <span class="mr-2">$200</span>
+                            </button>
+                            <button
+                                class="btn btn-outline btn-primary px-5 rounded-full">Add
+                                Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col mx-auto border-2 border-gray-500 p-2 rounded-lg">
+                    <img class="w-[300px] rounded-t-lg" src="img/project2.png"
+                        alt>
+                    <div class="w-[280px] p-4 flex flex-col">
+                        <p
+                            class="text-xl text-gray-400 font-semibold">Branding</p>
+                        <h4
+                            class="text-3xl text-purple-500 font-bold">Plant
+                            Shop</h4>
+                        <div class="flex justify-between mt-3">
+                            <button
+                                class="relative flex items-center px-6 py-3 text-gray-700 font-semibold rounded-full bg-white shadow-[4px_4px_6px_rgba(255,255,255,0.3),-4px_-4px_6px_rgba(116,125,136,0.2),inset_-4px_-4px_6px_rgba(255,255,255,0.2),inset_4px_4px_6px_rgba(0,0,0,0.2)] ">
+                                <span class="mr-2">$300</span>
+                            </button>
+                            <button
+                                class="btn btn-outline btn-primary px-5 rounded-full">Add
+                                Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col mx-auto border-2 border-gray-500 p-2 rounded-lg">
+                    <img class="w-[300px] rounded-t-lg" src="img/project3.png"
+                        alt>
+                    <div class="w-[280px] p-4 flex flex-col">
+                        <p
+                            class="text-xl text-gray-400 font-semibold">Branding</p>
+                        <h4
+                            class="text-3xl text-purple-500 font-bold">Resturant</h4>
+                        <div class="flex justify-between mt-3">
+                            <button
+                                class="relative flex items-center px-6 py-3 text-gray-700 font-semibold rounded-full bg-white shadow-[4px_4px_6px_rgba(255,255,255,0.3),-4px_-4px_6px_rgba(116,125,136,0.2),inset_-4px_-4px_6px_rgba(255,255,255,0.2),inset_4px_4px_6px_rgba(0,0,0,0.2)] ">
+                                <span class="mr-2">$250</span>
+                            </button>
+                            <button
+                                class="btn btn-outline btn-primary px-5 rounded-full">Add
+                                Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col mx-auto border-2 border-gray-500 p-2 rounded-lg">
+                    <img class="w-[300px] rounded-t-lg" src="img/project4.png"
+                        alt>
+                    <div class="w-[280px] p-4 flex flex-col">
+                        <p
+                            class="text-xl text-gray-400 font-semibold">Branding</p>
+                        <h4
+                            class="text-3xl text-purple-500 font-bold">Game</h4>
+                        <div class="flex justify-between mt-3">
+                            <button
+                                class="relative flex items-center px-6 py-3 text-gray-700 font-semibold rounded-full bg-white shadow-[4px_4px_6px_rgba(255,255,255,0.3),-4px_-4px_6px_rgba(116,125,136,0.2),inset_-4px_-4px_6px_rgba(255,255,255,0.2),inset_4px_4px_6px_rgba(0,0,0,0.2)] ">
+                                <span class="mr-2">$150</span>
+                            </button>
+                            <button
+                                class="btn btn-outline btn-primary px-5 rounded-full">Add
+                                Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col mx-auto border-2 border-gray-500 p-2 rounded-lg">
+                    <img class="w-[300px] rounded-t-lg" src="img/project5.png"
+                        alt>
+                    <div class="w-[280px] p-4 flex flex-col">
+                        <p
+                            class="text-xl text-gray-400 font-semibold">Branding</p>
+                        <h4
+                            class="text-3xl text-purple-500 font-bold">Agency</h4>
+                        <div class="flex justify-between mt-3">
+                            <button
+                                class="relative flex items-center px-6 py-3 text-gray-700 font-semibold rounded-full bg-white shadow-[4px_4px_6px_rgba(255,255,255,0.3),-4px_-4px_6px_rgba(116,125,136,0.2),inset_-4px_-4px_6px_rgba(255,255,255,0.2),inset_4px_4px_6px_rgba(0,0,0,0.2)] ">
+                                <span class="mr-2">$250</span>
+                            </button>
+                            <button
+                                class="btn btn-outline btn-primary px-5 rounded-full">Add
+                                Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col mx-auto border-2 border-gray-500 p-2 rounded-lg">
+                    <img class="w-[300px] rounded-t-lg" src="img/project6.png"
+                        alt>
+                    <div class="w-[280px] p-4 flex flex-col">
+                        <p
+                            class="text-xl text-gray-400 font-semibold">Branding</p>
+                        <h4
+                            class="text-3xl text-purple-500 font-bold">Medical</h4>
+                        <div class="flex justify-between mt-3">
+                            <button
+                                class="relative flex items-center px-6 py-3 text-gray-700 font-semibold rounded-full bg-white shadow-[4px_4px_6px_rgba(255,255,255,0.3),-4px_-4px_6px_rgba(116,125,136,0.2),inset_-4px_-4px_6px_rgba(255,255,255,0.2),inset_4px_4px_6px_rgba(0,0,0,0.2)] ">
+                                <span class="mr-2">$190</span>
+                            </button>
+                            <button
+                                class="btn btn-outline btn-primary px-5 rounded-full">Add
+                                Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- resume -->
+        <div class="w-9/12 mx-auto">
+            <div class>
+                <p
+                    class="text-center text-[45px] font-bold bg-gradient-to-r from-purple-500 to-indigo-900 bg-clip-text text-transparent">My
+                    Resume</p>
+            </div>
+            <div class="flex justify-between w-9/12 mx-auto">
+                <div class>
+                    <p class=" text-[#8750F7] text-[40px]">Education</p>
+                    <ul class="timeline timeline-vertical bg-white">
+                        <li>
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 bg-white text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-graduation-cap text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2022
+                                        - Present</p>
+                                    <p class="text-[20px] text-indigo-900">Lead
+                                        Developer</p>
+                                    <p
+                                        class="text-[16px] text-[#878b88]">Blockdots,
+                                        London</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 bg-white text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-graduation-cap text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2021
+                                        - 2022</p>
+                                    <p class="text-[20px] text-indigo-900">Full
+                                        Stack Web Developer</p>
+                                    <p
+                                        class="text-[16px] text-[#878b88]">Parsons,
+                                        The New School</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-graduation-cap text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2020
+                                        - 2021</p>
+                                    <p class="text-[20px] text-indigo-900">UI
+                                        Designer</p>
+                                    <p class="text-[16px] text-[#878b88]">House
+                                        of Life, Leeds</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-graduation-cap text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2018
+                                        - 2020</p>
+                                    <p
+                                        class="text-[20px] text-indigo-900">Junior
+                                        Graphics Designer</p>
+                                    <p class="text-[16px] text-[#878b88]">Theme
+                                        Junction, Bursa</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-graduation-cap text-4xl  text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2022
+                                        - Present</p>
+                                    <p class="text-[20px] text-indigo-900">Lead
+                                        Developer</p>
+                                    <p
+                                        class="text-[16px] text-[#878b88]">Blockdots,
+                                        London</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class>
+                    <p class=" text-[#8750F7] text-[40px]">Work Experience</p>
+                    <ul class="timeline timeline-vertical bg-white">
+                        <li>
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 bg-white text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-briefcase text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2020
+                                        - 2023</p>
+                                    <p class="text-[20px] text-indigo-900">Lead
+                                        Developer</p>
+                                    <p
+                                        class="text-[16px] text-[#878b88]">Blockdots,
+                                        London</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 bg-white text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-briefcase text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2021
+                                        - 2022</p>
+                                    <p class="text-[20px] text-indigo-900">Full
+                                        Stack Web Developer</p>
+                                    <p
+                                        class="text-[16px] text-[#878b88]">Parsons,
+                                        The New School</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-briefcase text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2020
+                                        - 2021</p>
+                                    <p class="text-[20px] text-indigo-900">UI
+                                        Designer</p>
+                                    <p class="text-[16px] text-[#878b88]">House
+                                        of Life, Leeds</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-briefcase text-4xl text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2018
+                                        - 2020</p>
+                                    <p
+                                        class="text-[20px] text-indigo-900">Junior
+                                        Graphics Designer</p>
+                                    <p class="text-[16px] text-[#878b88]">Theme
+                                        Junction, Bursa</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </li>
+                        <li>
+                            <hr />
+                            <div class="timeline-middle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-5 w-5 text-[#8750F7]">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div
+                                class="timeline-end timeline-box bg-white border-none flex justify-start items-center gap-4">
+                                <i
+                                    class="fa-solid fa-graduation-cap text-4xl  text-[#8750F7]"></i>
+                                <div class>
+                                    <p
+                                        class="text-[20px] text-[#8750F7] font-bold">2022
+                                        - Present</p>
+                                    <p class="text-[20px] text-indigo-900">Lead
+                                        Developer</p>
+                                    <p
+                                        class="text-[16px] text-[#878b88]">Blockdots,
+                                        London</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=" bg-white">
+            <div class="container mx-auto px-4 py-8">
+                <h2
+                    class="text-center text-[45px] font-bold bg-gradient-to-r from-purple-500 to-indigo-900 bg-clip-text text-transparent">
+                    My Skills
+                </h2>
+                <h2 class="text-2xl font-semibold text-center">
+                    Offered Services
+                </h2>
+
+                <div class="p-1 grid grid-cols-5 items-center justify-center">
+
+                    <div
+                        class="flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 hover:bg-gray-500 rounded-lg max-w-xs shadow-lg">
+                        <div
+                            class="relative pt-10 px-10 flex items-center justify-center">
+                            <div
+                                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                                style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                            </div>
+                            <img
+                                class="relative w-40 transition duration-300 ease-in-out hover:scale-110"
+                                src="img/skill1.png" alt>
+                        </div>
+                        <div class="relative text-white px-6 pb-6 mt-6">
+
+                            <div class="flex justify-between">
+                                <span
+                                    class="block font-semibold text-xl">Figma</span>
+                                <span
+                                    class="block rounded-full bg-gray-200 text-blue-500 text-xs font-bold px-3 py-2 leading-none flex items-center">92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 hover:bg-gray-500 rounded-lg max-w-xs shadow-lg">
+                        <div
+                            class="relative pt-10 px-10 flex items-center justify-center">
+                            <div
+                                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                                style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                            </div>
+                            <img
+                                class="relative w-40 transition duration-300 ease-in-out hover:scale-110"
+                                class="relative w-40" src="img/skill2.png" alt>
+                        </div>
+                        <div class="relative text-white px-6 pb-6 mt-6">
+
+                            <div class="flex justify-between">
+                                <span
+                                    class="block font-semibold text-xl">JavaScript</span>
+                                <span
+                                    class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">93%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 hover:bg-gray-500 rounded-lg max-w-xs shadow-lg">
+                        <div
+                            class="relative pt-10 px-10 flex items-center justify-center">
+                            <div
+                                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                                style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                            </div>
+                            <img
+                                class="relative w-40 transition duration-300 ease-in-out hover:scale-110"
+                                class="relative w-40" src="img/skill3.png" alt>
+                        </div>
+                        <div class="relative text-white px-6 pb-6 mt-6">
+
+                            <div class="flex justify-between">
+                                <span
+                                    class="block font-semibold text-xl">Wordpress</span>
+                                <span
+                                    class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 hover:bg-gray-500 rounded-lg max-w-xs shadow-lg">
+                        <div
+                            class="relative pt-10 px-10 flex items-center justify-center">
+                            <div
+                                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                                style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                            </div>
+                            <img
+                                class="relative w-40 transition duration-300 ease-in-out hover:scale-110"
+                                class="relative w-40" src="img/skill4.png" alt>
+                        </div>
+                        <div class="relative text-white px-6 pb-6 mt-6">
+
+                            <div class="flex justify-between">
+                                <span
+                                    class="block font-semibold text-xl">React</span>
+                                <span
+                                    class="block bg-white rounded-full text-indigo-900 text-xs font-bold px-3 py-2 leading-none flex items-center">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 hover:bg-gray-500 rounded-lg max-w-xs shadow-lg">
+                        <div
+                            class="relative pt-10 px-10 flex items-center justify-center">
+                            <div
+                                class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                                style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                            </div>
+                            <img
+                                class="relative w-40 transition duration-300 ease-in-out hover:scale-110"
+                                class="relative w-40" src="img/skill5.png" alt>
+                        </div>
+                        <div class="relative text-white px-6 pb-6 mt-6">
+
+                            <div class="flex justify-between">
+                                <span
+                                    class="block font-semibold text-xl">Sketch</span>
+                                <span
+                                    class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">80%</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- review -->
+        <section class="bg-white w-9/12 mx-auto">
+            <div
+                class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+                <h2
+                    class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                    Read trusted reviews from our customers
+                </h2>
+
+                <div
+                    class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
+                    <blockquote
+                        class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center gap-4">
+                            <img
+                                alt
+                                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                                class="size-14 rounded-full object-cover" />
+
+                            <div>
+                                <div
+                                    class="flex justify-center gap-0.5 text-green-500">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </div>
+
+                                <p
+                                    class="mt-0.5 text-lg font-medium text-gray-900">Paul
+                                    Starr</p>
+                            </div>
+                        </div>
+
+                        <p class="mt-4 text-gray-700">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Culpa sit rerum incidunt, a
+                            consequuntur recusandae ab saepe illo est quia
+                            obcaecati neque quibusdam eius accusamus
+                            error officiis atque voluptates magnam!
+                        </p>
+                    </blockquote>
+
+                    <blockquote
+                        class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center gap-4">
+                            <img
+                                alt
+                                src="img/r2.jpg"
+                                class="size-14 rounded-full object-cover" />
+
+                            <div>
+                                <div
+                                    class="flex justify-center gap-0.5 text-green-500">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </div>
+
+                                <p
+                                    class="mt-0.5 text-lg font-medium text-gray-900">Tim
+                                    Bailey</p>
+                            </div>
+                        </div>
+
+                        <p class="mt-4 text-gray-700">
+                            Taylor is a professional Designer he really helps my
+                            business by providing value to my business. Taylor
+                            is a professional Designer he really helps my
+                            business by providing value to my business.
+                        </p>
+                    </blockquote>
+
+                    <blockquote
+                        class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center gap-4">
+                            <img
+                                alt
+                                src="img/r1.jpg"
+                                class="size-14 rounded-full object-cover" />
+
+                            <div>
+                                <div
+                                    class="flex justify-center gap-0.5 text-green-500">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="size-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </div>
+
+                                <p
+                                    class="mt-0.5 text-lg font-medium text-gray-900">Brandon
+                                    Fraser</p>
+                            </div>
+                        </div>
+
+                        <p class="mt-4 text-gray-700">
+                            Taylor is a professional Designer he really helps my
+                            business by providing value to my business. Taylor
+                            is a professional Designer he really helps my
+                            business by providing value to my business.
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <!-- contact us -->
+        <div class="bg-gray-100 ">
+            <div class="w-9/12 mx-auto py-24">
+                <p class="text-[16px] text-indigo-900">Want to start a project?</p>
+                <p class="text-[128px]  leading-[105px] font-bold text-[#8750f7]">Let's Have a Chat</p>
+                <div class="flex w-full items-end justify-end -ml-[150px] gap-4 text-[#8750f7]">
+                    <p>info@taylor.com</p>
+                    <button type="button"
+                        class="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-4 h-4" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                        <span class="sr-only">Icon description</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- footer  -->
+         <div class="flex flex-col items-center justify-center py-8 bg-indigo-900 gap-5">
+            <div class="flex gap-5">
+                <button id="facebook" class="bg-white  sticky duration-500 border-2 border-blue-600 fixed  w-12 transform hover:-translate-y-3   h-12 text-2xl rounded-full hover:bg-blue-600 hover:text-white text-blue-600 ">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button id="instagram" class=" border-2 hover:border-0 border-pink-500 bg-gradient-to-b text-2xl hover:from-indigo-600 hover:via-pink-600 hover:to-yellow-500 min-w-wull hover:text-white bg-white text-pink-600 w-12 h-12  transform hover:-translate-y-3 rounded-full duration-500 ">
+                    <i class="fab fa-instagram"></i>
+                  </button>
+                  <button id="twitter" class="bg-white  transform hover:-translate-y-3  border-2 w-12 h-12 rounded-full duration-500 text-blue-400 border-blue-400 hover:bg-blue-400 hover:text-white text-2xl">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                  <button id="telegram" class="bg-white  transform hover:-translate-y-3  border-2 w-12 h-12 rounded-full duration-500 text-blue-400 border-blue-400 hover:bg-blue-400 hover:text-white text-2xl">
+                    <i class="fab fa-telegram-plane"></i>
+                  </button>
+            </div>
+            <img class="w-[75px]" src="img/logo-primary.png" alt="">
+            <ul
+                    class="font-semibold gap-5 hidden md:block md:flex text-base text-white">
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Home
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Services
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Resume
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Skill
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Testiomonials
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="border-b-2 border-transparent group-hover:border-transparent">
+                            Contact
+                        </span>
+                        <span
+                            class="absolute left-0 bottom-0 w-full h-[2px] bg-[#2A1454] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </li>
+                </ul>
+                <div class="">
+                    <p class="text-[#8750F7]">© 2024 All Rights Reserved by ThemeJunction</p>
+                </div>
+         </div>
+    </body>
+</html>
